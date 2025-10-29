@@ -1,0 +1,19 @@
+/* ------MAX-WIDTH-1115PX------ */
+
+.rounded-demi a {
+  display: none;
+}
+.rounded-demi > i {
+  display: inline;
+}
+.offre1 {
+  display: none;
+}
+.worldwide,
+.bretagne {
+  border-radius: 15px;
+}
+.worldwide img,
+.bretagne img {
+  border-radius: 15px 0px 0px 15px;
+}

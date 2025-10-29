@@ -1,0 +1,141 @@
+/* ------MAX-WIDTH-670PX------ */
+.container {
+  width: 100vw;
+  /* border: solid 4px blue; */
+}
+.beach {
+  height: 700px;
+  visibility: hidden;
+
+  /* border: solid 3px red; */
+}
+.infos-sur-la-plage {
+  display: none;
+}
+.header-media button,
+a {
+  display: none;
+}
+.flag {
+  display: none;
+}
+.connected {
+  display: inline;
+  margin-right: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 25px;
+}
+.connected p {
+  font-size: 15px;
+  font-family: "easyJet Rounded Book";
+}
+
+.div1-sur-image {
+  /* border: solid 4px blue; */
+  display: flex;
+  height: 505px;
+  background-color: #eee8e8;
+}
+
+.booking-menu-div {
+  /* border: solid 2px red; */
+  width: 310px;
+  background-color: #eee8e8;
+}
+.le-booking-menu {
+  /* border: solid 4px green; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bandeau-bas-beach {
+  background-color: white;
+  /* border: solid 2px blue; */
+}
+
+.offres {
+  width: 450px;
+  margin-left: 15px;
+  /* border: solid 4px red; */
+}
+
+.offre2 {
+  display: none;
+}
+
+/* ------WORLDWIDE------ */
+.worldwide {
+  /* border: solid 5px yellow; */
+  height: 350px;
+  width: 300px;
+}
+.worldwide > div {
+  /* border: solid 2px blue; */
+  width: 300px;
+  line-height: 13px;
+}
+.worldwide button {
+  margin-left: 115px;
+  margin-top: 30px;
+}
+.worldwide img {
+  object-fit: cover;
+  object-position: top;
+  /* border: solid 4px green; */
+  height: 150px;
+}
+/* ------BRETAGNE------ */
+.bretagne {
+  /* border: solid 5px yellow; */
+  height: 460px;
+  width: 300px;
+}
+.bretagne > div {
+  /* border: solid 2px blue; */
+  width: 300px;
+  height: 400px;
+}
+.bretagne button {
+  margin-left: 95px;
+  margin-bottom: 30px;
+  /* border: solid 2px black; */
+  width: 180px;
+}
+.bretagne img {
+  object-fit: cover;
+  object-position: top;
+  /* border: solid 4px green; */
+  height: 150px;
+}
+/* -----IMAGES-TRIPLES------ */
+.images-bas {
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  overflow: scroll;
+  /* border: solid 3px yellow; */
+  width: 580px;
+}
+.last-image > img {
+  width: 280px;
+}
+.images-bas::-webkit-scrollbar {
+  display: none;
+}
+/* ------CAROUSSEL-BAS------ */
+.div-bas div {
+  background-color: #333333;
+  /* border: solid 2px red; */
+  width: 140px;
+}
+/* ------MENU-FOOTER------ */
+
+footer div {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  /* border: solid 2px red; */
+}
+footer ul {
+  display: none;
+}
