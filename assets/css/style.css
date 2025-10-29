@@ -1,0 +1,602 @@
+@import "./booking-menu-style.css";
+
+* {
+  box-sizing: border-box;
+  font-family: "easyJet Rounded Book";
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+  /* border: solid 4px orange; */
+}
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+p {
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.rounded-demi {
+  font-family: "easyJet Rounded Demi";
+}
+/* --------HEADER--------- */
+.rounded-demi > i {
+  color: white;
+  font-size: 25px;
+  display: none;
+}
+.connected {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  display: none;
+}
+header {
+  background-image: url("../imgs/headbar.gif");
+  height: 60px;
+  background-size: cover;
+  font-size: 16px;
+  width: 100vw;
+  object-fit: cover;
+  /* border: solid 3px red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+header div:nth-child(1) {
+  /* border: solid 2px green; */
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  margin-left: 10px;
+}
+header div:nth-child(2) {
+  display: flex;
+  /* border: solid 2px blue; */
+  gap: 20px;
+  align-items: center;
+  margin-right: 20px;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+header button {
+  color: #f60;
+  border-radius: 3px;
+  border: none;
+  padding: 7px 10px;
+  font-size: 16px;
+}
+
+/* ------IMAGE PLAGE------ */
+.image-beach {
+  /* border: solid 6px orange; */
+  position: relative;
+  z-index: 0;
+}
+.div1-sur-image {
+  width: 100%;
+  /* border: solid 4px red; */
+  position: absolute;
+  top: 60px;
+}
+.booking-menu-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: solid 4px green; */
+  height: 100%;
+}
+.beach {
+  /* border: solid 2px red; */
+  height: 750px;
+  width: 100vw;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.infos-sur-la-plage {
+  /* border: solid 4px blue; */
+  width: 290px;
+  height: 100%;
+  background-color: transparent;
+}
+.infos-sur-la-plage h1 {
+  font-family: easyJet Headline;
+  color: white;
+  font-size: 53px;
+}
+.infos-sur-la-plage > p {
+  margin-top: 30px;
+  color: white;
+  font-size: 25px;
+  font-family: "easyJet Rounded Book";
+}
+.infos-sur-la-plage h2 {
+  color: white;
+  font-size: 40px;
+  font-family: "easyJet Rounded Book";
+}
+/* ------BANDEAU-BAS-BEACH------ */
+.bandeau-bas-beach {
+  /* border: solid 2px blue; */
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  height: 140px;
+  background-color: rgba(239, 245, 247, 0.8); /* 0.5 - semi-transparent */
+}
+.bandeau-bas-beach-button {
+  width: 150px;
+  background-color: #f70;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 4px;
+  border: none;
+}
+
+.offres {
+  /* border: solid 2px yellow; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.bandeau-bas-beach > div h1 {
+  /* border: solid 1px green; */
+  margin-bottom: 10px;
+}
+/* -----SECTION WORLDWIDE----- */
+.worldwide img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  /* border: solid 2px red; */
+}
+.worldwide {
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px #bbb;
+  /* border: solid 2px red; */
+  display: flex;
+  align-items: center;
+}
+.worldwide div {
+  display: flex;
+  /* border: solid 2px orange; */
+  height: 200px;
+  flex-direction: column;
+  padding-left: 5px;
+}
+
+.worldwide button {
+  background-color: #f70;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 2px;
+  border: none;
+  margin-left: 125px;
+  margin-top: 20px;
+  width: 165px;
+  /* border: solid 2px blue; */
+}
+/* ------CAROUSSEL------ */
+.caroussel {
+  /* border: solid 2px red; */
+  display: flex;
+  overflow-x: scroll;
+  gap: 20px;
+  margin-bottom: 20px;
+  padding: 3px;
+}
+.caroussel::-webkit-scrollbar {
+  display: none;
+}
+.card {
+  box-shadow: 0 0 5px #bbb;
+  border-radius: 10px;
+  height: 340px;
+  /* border: solid 1px red; */
+}
+.card img {
+  width: 290px;
+  border-radius: 10px 10px 0px 0px;
+}
+.card div {
+  /* border: solid 2px blue; */
+  padding: 10px;
+}
+.card h1 {
+  margin-bottom: 20px;
+}
+.card button {
+  width: 150px;
+  background-color: #f70;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 4px;
+  border: none;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+/* -----SECTION BRETAGNE----- */
+.bretagne img {
+  height: 305px;
+  width: 100%;
+  object-fit: cover;
+  /* border: solid 2px green; */
+}
+.bretagne {
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px #bbb;
+  /* border: solid 2px red; */
+  display: flex;
+  align-items: center;
+}
+.bretagne > div {
+  width: 440px;
+  height: 290px;
+  display: flex;
+  /* border: solid 2px orange; */
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.bretagne button {
+  background-color: #f70;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 2px;
+  border: none;
+  margin-left: 102px;
+  /* border: solid 2px blue; */
+}
+/* ------IMAGES DU BAS------ */
+.images-bas img {
+  /* border: solid 2px red; */
+  width: 280px;
+  border-radius: 10px;
+}
+.images-bas {
+  /* border: solid 2px blue; */
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.triple {
+  /* border: solid 2px red; */
+  position: relative;
+}
+.triple p {
+  position: absolute;
+  color: white;
+  font-size: 29px;
+  top: 30px;
+  left: 10px;
+}
+.triple button {
+  position: absolute;
+  font-size: 15px;
+  bottom: 10px;
+  left: 10px;
+  border: none;
+  color: white;
+  background-color: transparent;
+}
+.triple button:hover {
+  color: black;
+}
+.text p {
+  /* border: solid 1px red; */
+  width: 164px;
+}
+/* ------CAROUSSEL DU BAS------ */
+section h1 {
+  margin-bottom: 10px;
+}
+.div-bas {
+  /* border: solid 2px blue; */
+  display: flex;
+  overflow: scroll;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.div-bas::-webkit-scrollbar {
+  display: none;
+}
+.div-bas div {
+  flex-shrink: 0;
+  width: 150px;
+  height: 150px;
+  /* border: solid 2px orange; */
+  background-color: black;
+  display: flex;
+
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.div-bas div:hover {
+  background-color: #f70;
+}
+.div-bas p {
+  font-size: 16px;
+}
+.div-bas i {
+  font-size: 35px;
+  align-self: center;
+  margin-top: 40px;
+}
+.icone i {
+  /* border: solid 2px red; */
+  margin-top: 25px;
+}
+/* ------FOOTER------ */
+footer {
+  background-color: #f2f2f2;
+  /* border: solid 2px red; */
+  padding: 20px;
+}
+footer > div {
+  display: flex;
+  padding: 10px;
+  color: black;
+  /* border: solid 1px blue; */
+  justify-content: space-between;
+}
+footer > div > div > div {
+  /* border: solid 1px red; */
+  margin-bottom: 15px;
+}
+footer ul {
+  /* border: solid 1px red; */
+  line-height: 20px;
+}
+/* ------MEDIA QUERIES------ */
+
+/* ------MAX-WIDTH-1115PX------ */
+@media (max-width: 1115px) {
+  .rounded-demi a {
+    display: none;
+  }
+  .rounded-demi > i {
+    display: inline;
+  }
+  .offre1 {
+    display: none;
+  }
+  .worldwide,
+  .bretagne {
+    border-radius: 15px;
+  }
+  .worldwide img,
+  .bretagne img {
+    border-radius: 15px 0px 0px 15px;
+  }
+}
+/* ------MAX-WIDTH-950PX------ */
+
+@media (max-width: 960px) {
+  .container {
+    width: 820px;
+    /* border: solid 4px blue; */
+  }
+
+  /* ------WORDLWIDE------ */
+  .worldwide img,
+  .bretagne img {
+    border-radius: 15px 15px 0px 0px;
+  }
+  .worldwide,
+  .bretagne {
+    /* border: solid 2px red; */
+    flex-direction: column;
+    width: 600px;
+  }
+  .worldwide > div {
+    /* border: solid 5px yellow; */
+    height: 130px;
+    width: 600px;
+    line-height: 5px;
+  }
+  .worldwide > div h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border: solid 1px blue; */
+  }
+  .worldwide button {
+    margin-left: 400px;
+    margin-top: 5px;
+  }
+  .worldwide .first-image {
+    display: none;
+  }
+  /* ------BRETAGNE------ */
+  .bretagne {
+    /* border: solid 2px red; */
+    flex-direction: column;
+  }
+  .bretagne > div {
+    /* border: solid 1px yellow; */
+    height: 180px;
+    width: 600px;
+    line-height: 15px;
+  }
+  .bretagne > div p {
+    margin-bottom: 5px;
+  }
+  .bretagne > div h2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    /* border: solid 1px blue; */
+  }
+  .bretagne button {
+    margin-left: 400px;
+    width: 170px;
+    margin-bottom: 25px;
+  }
+  /* ------IMAGES-DU-BAS------ */
+  .images-bas {
+    flex-wrap: wrap;
+    /* border: solid 3px yellow; */
+    width: 600px;
+  }
+  .last-image {
+    /* border: solid 3px red; */
+    width: 100%;
+  }
+  .last-image > img {
+    width: 598px;
+    height: 200px;
+  }
+}
+/* ------MAX-WIDTH-670PX------ */
+
+@media (max-width: 670px) {
+  .beach {
+    height: 700px;
+    visibility: hidden;
+
+    /* border: solid 3px red; */
+  }
+  .infos-sur-la-plage {
+    display: none;
+  }
+  .header-media button,
+  a {
+    display: none;
+  }
+  .flag {
+    display: none;
+  }
+  .connected {
+    display: inline;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .connected p {
+    font-size: 15px;
+    font-family: "easyJet Rounded Book";
+  }
+  .booking-menu-div {
+    /* border: solid 2px red; */
+    justify-content: center;
+    background-color: #eee8e8;
+  }
+  .div1-sur-image {
+    /* border: solid 2px blue; */
+    height: 505px;
+    background-color: #eee8e8;
+  }
+
+  .bandeau-bas-beach {
+    background-color: white;
+    width: 100vw;
+    /* border: solid 2px blue; */
+  }
+
+  .offres {
+    /* border: solid 4px red; */
+    justify-content: space-evenly;
+  }
+  .le-booking-menu {
+    /* border: solid 2px black; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .offre2 {
+    display: none;
+  }
+  .container {
+    width: 100vw;
+    /* border: solid 4px blue; */
+  }
+
+  /* ------WORLDWIDE------ */
+  .worldwide {
+    /* border: solid 5px yellow; */
+    height: 350px;
+    width: 300px;
+  }
+  .worldwide > div {
+    /* border: solid 2px blue; */
+    width: 300px;
+    line-height: 13px;
+  }
+  .worldwide button {
+    margin-left: 115px;
+    margin-top: 30px;
+  }
+  .worldwide img {
+    object-fit: cover;
+    object-position: top;
+    /* border: solid 4px green; */
+    height: 150px;
+  }
+  /* ------BRETAGNE------ */
+  .bretagne {
+    /* border: solid 5px yellow; */
+    height: 460px;
+    width: 300px;
+  }
+  .bretagne > div {
+    /* border: solid 2px blue; */
+    width: 300px;
+    height: 400px;
+  }
+  .bretagne button {
+    margin-left: 95px;
+    margin-bottom: 30px;
+    /* border: solid 2px black; */
+    width: 180px;
+  }
+  .bretagne img {
+    object-fit: cover;
+    object-position: top;
+    /* border: solid 4px green; */
+    height: 150px;
+  }
+  /* -----IMAGES-TRIPLES------ */
+  .images-bas {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    overflow: scroll;
+    /* border: solid 3px yellow; */
+    width: 580px;
+  }
+  .last-image > img {
+    width: 280px;
+  }
+  .images-bas::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* ------MENU-FOOTER------ */
+
+  footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer ul {
+    display: none;
+  }
+  .div-bas div {
+    background-color: #333333;
+    width: 140px;
+  }
+}

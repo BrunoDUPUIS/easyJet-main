@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EasyJet-LeReacteur</title>
+    <link rel="shortcut icon" href="./assets/imgs/tab-logo.png" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/styleFonts.css" />
+
+    <script
+      src="https://kit.fontawesome.com/7ce5341248.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- ------HEADER------ -->
+    <header>
+      <div class="rounded-demi">
+        <i class="fa-solid fa-bars"></i>
+        <img src="./assets/imgs/ej-title.png" alt="logo easyJet" />
+        <a href="">Infos de vol</a> <a href="">Voitures/Autres services</a>
+        <a href="">Business</a> <a href="">Hôtels</a>
+        <a href="">Mes réservations</a>
+      </div>
+
+      <div class="header-media">
+        <button>S'enregistrer</button>
+        <a href="">Se connecter</a> <a href="">Aide</a><a href="">fr-FR</a>
+        <img
+          src="./assets/imgs/drapeau.png"
+          class="flag"
+          alt="drapeau français"
+        />
+        <div class="connected">
+          <i class="fa-regular fa-circle-user"></i>
+          <p>Se connecter</p>
+        </div>
+      </div>
+    </header>
+    <!-- ------MAIN------ -->
+    <main>
+      <div class="image-beach">
+        <img src="./assets/imgs/beach.jpg" alt="plage" class="beach" />
+
+        <div class="div1-sur-image">
+          <div class="container booking-menu-div">
+            <!-- ------BOOKING-MENU----- -->
+            <section class="le-booking-menu">
+              <div class="top-booking-menu">
+                <div>Vols</div>
+                <div>Hôtels</div>
+                <div>Voitures</div>
+              </div>
+              <section class="booking-menu">
+                <!-- CHECKBOX -->
+                <div class="checkbox">
+                  <input type="checkbox" id="checkbox" /><label for="checkbox"
+                    >Aller simple</label
+                  >
+                </div>
+                <!-- DESTINATION -->
+                <div class="destination">
+                  <div class="test">
+                    <div>
+                      <label>De:<input type="text" /></label>
+                    </div>
+                    <div><i class="fa-solid fa-list"></i></div>
+                  </div>
+
+                  <div class="trait"></div>
+
+                  <div class="test">
+                    <div>
+                      <label>À : <input type="text" /></label>
+                    </div>
+                    <div><i class="fa-solid fa-list"></i></div>
+                  </div>
+                </div>
+                <!-- ALLER ET RETOUR -->
+                <div class="alleretour">
+                  <div class="test2">
+                    <div><i class="fa-solid fa-calendar-days"></i></div>
+                    <div><p>Aller</p></div>
+                  </div>
+
+                  <div class="trait"></div>
+                  <div class="test2">
+                    <div><i class="fa-solid fa-calendar-days"></i></div>
+                    <div><p>Retour</p></div>
+                  </div>
+                </div>
+                <!-- QUI PART ET COMBIEN  -->
+                <div class="type">
+                  <div class="nb-persons">
+                    <div>Adultes (16+)</div>
+
+                    <div class="test3 test4">
+                      <button class="colorbutton">-</button>
+                      <span>1</span>
+                      <button class="colorbutton">+</button>
+                    </div>
+                  </div>
+
+                  <div class="nb-persons">
+                    <div>Enfants (2-15)</div>
+
+                    <div class="test3">
+                      <button class="button">-</button>
+                      <span>0</span>
+                      <button class="colorbutton">+</button>
+                    </div>
+                  </div>
+
+                  <div class="nb-persons">
+                    <div>Bébés (<2)</div>
+                    <div class="test3">
+                      <button class="button">-</button>
+                      <span>0</span>
+                      <button class="colorbutton">+</button>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- VOLS POSSIBLES -->
+
+                <button class="fly">Afficher les vols ></button>
+
+                <!-- INFOS -->
+
+                <div class="booking-menu-bottom">
+                  <p>À propos de l'assistance spéciale ></p>
+                  <p>Nous compensons nos émissions carbone ></p>
+                </div>
+
+                <!-- FIN DE SECTION -->
+              </section>
+            </section>
+            <div class="infos-sur-la-plage">
+              <div><h1>NAGER, DORMIR. MANGER. RECOMMENCER.</h1></div>
+
+              <p>
+                Cet été détendez-vous à la plage : Baléares, Sardaigne, Sicile.
+                Vous avez le choix !
+              </p>
+              <p>à partir de</p>
+              <h2>29,75€</h2>
+              <div>
+                <button class="fly taille">Réservez maintenant !</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bandeau-bas-beach">
+          <div class="container">
+            <div class="offres">
+              <div class="offre1">
+                <div><h1>Lisbonne</h1></div>
+                <div><p>à partir de Paris Charles De Gaulle</p></div>
+                <div><p>29,75€ nov 2025</p></div>
+                <div>
+                  <button class="bandeau-bas-beach-button">Réservez ></button>
+                </div>
+              </div>
+              <div class="offre2">
+                <div><h1>Porto</h1></div>
+                <div><p>à partir de Paris Charles De Gaulle</p></div>
+                <div><p>29,75€ nov 2025</p></div>
+                <div>
+                  <button class="bandeau-bas-beach-button">Réservez ></button>
+                </div>
+              </div>
+              <div>
+                <div><h1>Madrid</h1></div>
+                <div><p>à partir de Paris Charles De Gaulle</p></div>
+                <div><p>29,75€ nov 2025</p></div>
+                <div>
+                  <button class="bandeau-bas-beach-button">Réservez ></button>
+                </div>
+              </div>
+              <div>
+                <div><h1>Athènes</h1></div>
+                <div><p>à partir de Paris Charles De Gaulle</p></div>
+                <div><p>29,75€ nov 2025</p></div>
+                <div>
+                  <button class="bandeau-bas-beach-button">Réservez ></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ------WORLDWIDE------ -->
+      <section class="worldwide container">
+        <img src="./assets/imgs/worldwide-img.jpg" alt="photo satelite" />
+
+        <div>
+          <div><h2>WORLDWIDE</h2></div>
+          <div>
+            <p>Voyagez encore plus loin à l'étranger.</p>
+            <p>
+              Découvrez l'Europe et au-delà grâce à notre offre de produits de
+              correspondance.
+            </p>
+          </div>
+
+          <div><button>Réservez maintenant</button></div>
+        </div>
+      </section>
+      <!-- ------CAROUSSEL------ -->
+      <section class="caroussel container">
+        <div class="card">
+          <img src="./assets/imgs/caroussels/carousel1.jpg" alt="" />
+          <div>
+            <h1>Location de véhicules</h1>
+            <p>
+              Vous avez besoin de réserver une voiture ? Comparer les prix de
+              location de voiture pour obltenir la meilleure offre.
+            </p>
+          </div>
+          <button>En savoir plus</button>
+        </div>
+
+        <div class="card">
+          <img src="./assets/imgs/caroussels/carousel2.jpg" alt="" />
+          <div>
+            <h1>Location de véhicules</h1>
+            <p>
+              Vous avez besoin de réserver une voiture ? Comparer les prix de
+              location de voiture pour obltenir la meilleure offre.
+            </p>
+          </div>
+          <button>En savoir plus</button>
+        </div>
+
+        <div class="card">
+          <img src="./assets/imgs/caroussels/carousel3.jpg" alt="" />
+          <div>
+            <h1>Location de véhicules</h1>
+            <p>
+              Vous avez besoin de réserver une voiture ? Comparer les prix de
+              location de voiture pour obltenir la meilleure offre.
+            </p>
+          </div>
+          <button>En savoir plus</button>
+        </div>
+
+        <div class="card">
+          <img src="./assets/imgs/caroussels/carousel4.jpg" alt="" />
+          <div>
+            <h1>Location de véhicules</h1>
+            <p>
+              Vous avez besoin de réserver une voiture ? Comparer les prix de
+              location de voiture pour obltenir la meilleure offre.
+            </p>
+          </div>
+          <button>En savoir plus</button>
+        </div>
+        <div class="card">
+          <img src="./assets/imgs/caroussels/carousel5.jpg" alt="" />
+          <div>
+            <h1>Location de véhicules</h1>
+            <p>
+              Vous avez besoin de réserver une voiture ? Comparer les prix de
+              location de voiture pour obltenir la meilleure offre.
+            </p>
+          </div>
+          <button>En savoir plus</button>
+        </div>
+      </section>
+      <!-- ------BRETAGNE------ -->
+      <section class="bretagne container">
+        <img src="./assets/imgs/bretagne.jpg" alt="photo bretagne" />
+
+        <div>
+          <div><h2>Cet été, faites sauter le crêpier !</h2></div>
+          <div>
+            <p>
+              Cap à l'ouest et bienvenue à Brest ! La perle maritime de la
+              Bretagne vous attend, là où l'aventure s'élève comme les marées et
+              où la vonne humeur fait des vagues !
+            </p>
+            <p>
+              Les magnifiques plages de sable fin et les criques isolées
+              invitent à la détente et à la contemplation. Les amateurs de plein
+              air seront ravis de pouvoir profiter des sentiers côtiers
+              pittoresques qui offrent des vues spectaculaires sur l'océan
+              Atlantique.
+            </p>
+          </div>
+
+          <div><button>Réservez maintenant</button></div>
+        </div>
+      </section>
+      <!-- ------IMAGES BAS TRIPLE----- -->
+      <section class="images-bas container">
+        <div class="triple first">
+          <p>Développement durable</p>
+          <button>En savoir plus ></button>
+          <img src="./assets/imgs/triple-first.jpg" alt="" />
+        </div>
+        <div class="triple text">
+          <p>Apprivoiser votre peur de voler</p>
+          <button>En savoir plus ></button>
+          <img src="./assets/imgs/triple-second.jpg" alt="" />
+        </div>
+        <div class="triple text last-image">
+          <p>Inscrivez-vous à notre newsletter</p>
+          <button>Profitez-en</button>
+          <img src="./assets/imgs/triple-third.jpg" alt="" />
+        </div>
+      </section>
+      <!-- ------COMMENT AIDER------ -->
+      <section class="container">
+        <h1>Comment pouvons-nous vous aider ?</h1>
+        <div class="div-bas">
+          <div>
+            <p>Questions fréquentes</p>
+            <i class="fa-regular fa-circle-question"></i>
+          </div>
+          <div>
+            <p>Bagages</p>
+            <br />
+            <i class="fa-solid fa-suitcase"></i>
+          </div>
+          <div>
+            <p>Retards et annulations</p>
+            <i class="fa-regular fa-clock"></i>
+          </div>
+          <div>
+            <p>S'enregistrer en ligne</p>
+            <i class="fa-solid fa-mobile-screen-button"></i>
+          </div>
+          <div>
+            <p>Effectuer un changement</p>
+            <i class="fa-solid fa-pen"></i>
+          </div>
+          <div class="icone">
+            <p>Protection contre les restrictions de voyage</p>
+            <i class="fa-solid fa-user-shield"></i>
+          </div>
+
+          <div>Retards et annulations</div>
+          <div>S'enregistrer en ligne</div>
+          <div>Effectuer un changement</div>
+          <div>Protection contre les restrictions de voyage</div>
+        </div>
+      </section>
+    </main>
+    <!-- ------FOOTER------ -->
+    <footer>
+      <div class="container">
+        <div>
+          <div>Infos de vol</div>
+          <ul>
+            <li>Tracker</li>
+            <li>Gérer les réservatyions</li>
+            <li>Durabilité</li>
+            <li>Guides de voyage</li>
+            <li>Carte des destinations</li>
+            <li>Vaincre votre peur de voler</li>
+            <li>Durée des vols</li>
+          </ul>
+        </div>
+
+        <div>
+          <div>Service clientèle</div>
+          <ul>
+            <li>Accessibilité</li>
+            <li>La Charte du passager</li>
+            <li>Aide</li>
+            <li>Point du trafic</li>
+            <li>Plan du site</li>
+            <li>Aide spéciale</li>
+          </ul>
+        </div>
+        <div>
+          <div>A propos d'easyJet</div>
+          <ul>
+            <li>Combien</li>
+            <li>Informations sur la compagnie</li>
+            <li>EasyJet Spirit</li>
+            <li>Unicel</li>
+          </ul>
+        </div>
+        <div>
+          <div>Termes et conditions</div>
+          <ul>
+            <li>Politique d'utilisation acceptable</li>
+            <li>Charte de distribution</li>
+            <li>Suppléments et charges</li>
+            <li>Avis sur les cookies du groupe</li>
+            <li>Politique de confidentialité</li>
+            <li>Conditions générales</li>
+            <li>Informations juridiques</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

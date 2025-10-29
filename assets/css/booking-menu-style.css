@@ -1,0 +1,159 @@
+.le-booking-menu {
+  /* border: solid 2px red; */
+  margin-top: 10px;
+}
+
+.booking-menu {
+  background-color: white;
+  /* border: solid 1px black; */
+  padding: 10px;
+}
+/* ------TOP BOOKING-MENU------ */
+.top-booking-menu {
+  margin: 0 auto;
+  /* margin-top: 25px; */
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  width: 300px;
+  height: 30px;
+  gap: 1px;
+  /* border: solid 1px blue; */
+}
+.top-booking-menu div {
+  text-align: center;
+  align-content: center;
+  padding: 4px;
+  width: 100px;
+  height: 100%;
+  /* border: solid 1px red; */
+}
+.top-booking-menu :nth-child(1) {
+  background-color: white;
+  color: black;
+}
+.top-booking-menu :nth-child(2) {
+  background-color: black;
+  color: white;
+}
+.top-booking-menu :nth-child(3) {
+  background-color: black;
+  color: white;
+}
+/* <!-- CHECKBOX --> */
+.checkbox {
+  /* border: solid 2px red; */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.checkbox input {
+  width: 30px;
+  height: 30px;
+}
+/* <!-- DESTINATION --> */
+.destination {
+  border: 1px solid #eee;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.destination i {
+  /* border: solid 1px blue; */
+  color: #f70;
+  font-size: 20px;
+}
+.test {
+  display: flex;
+  justify-content: space-between;
+  /* border: solid 1px red; */
+}
+.trait {
+  width: 180px;
+  height: 0px;
+  margin: 0 auto;
+  border: solid 1px #eee;
+}
+.destination input {
+  border: 1px solid #eee;
+
+  height: 24px;
+  width: 200px;
+}
+/* <!-- ALLER ET RETOUR --> */
+.test2 {
+  /* border: solid 1px red; */
+  display: flex;
+  align-items: center;
+}
+.test2 i {
+  /* border: solid 1px blue; */
+  color: #f70;
+  font-size: 20px;
+}
+.alleretour {
+  border: 1px solid #eee;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+.alleretour p {
+  color: #f70;
+  padding: 7px;
+}
+/* <!-- QUI PART ET COMBIEN  --> */
+.type span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.colorbutton {
+  color: #f70;
+  border: none;
+  background: none;
+  font-size: 30px;
+}
+.button {
+  border: none;
+  background: none;
+  font-size: 30px;
+}
+.test3 {
+  display: flex;
+  align-items: center;
+  /* border: solid 1px red; */
+}
+.test4 {
+  width: 66px;
+  justify-content: space-between;
+}
+/* <!-- VOLS POSSIBLES --> */
+.fly {
+  background-color: #f60;
+  color: white;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 2px;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.taille {
+  display: flex;
+  width: 230px;
+  justify-content: center;
+}
+/* <!-- INFOS --> */
+.booking-menu-bottom {
+  color: #f70;
+}
+.booking-menu-bottom > p:first-child {
+  margin-bottom: 5px;
+}
+.nb-persons {
+  /* border: solid 1px red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
