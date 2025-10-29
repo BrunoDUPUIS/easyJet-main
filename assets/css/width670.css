@@ -55,8 +55,8 @@ a {
 }
 
 .offres {
-  width: 450px;
-  margin-left: 15px;
+  width: 420px;
+  margin-left: 10px;
   /* border: solid 4px red; */
 }
 
@@ -75,9 +75,10 @@ a {
   width: 300px;
   line-height: 13px;
 }
-.worldwide button {
-  margin-left: 115px;
-  margin-top: 30px;
+.worldwide div button {
+  /* border: solid 2px red; */
+  margin-left: 110px;
+  margin-top: 10px;
 }
 .worldwide img {
   object-fit: cover;
@@ -91,34 +92,36 @@ a {
   height: 460px;
   width: 300px;
 }
-.bretagne > div {
+.text-bretagne > div {
   /* border: solid 2px blue; */
-  width: 300px;
-  height: 400px;
+
+  margin-left: 80px;
+  width: 250px;
 }
-.bretagne button {
-  margin-left: 95px;
-  margin-bottom: 30px;
+.bretagne div button {
+  margin-left: 90px;
+  margin-bottom: 70px;
   /* border: solid 2px black; */
-  width: 180px;
+  width: 170px;
 }
 .bretagne img {
   object-fit: cover;
   object-position: top;
   /* border: solid 4px green; */
+  margin-bottom: 10px;
   height: 150px;
 }
-/* -----IMAGES-TRIPLES------ */
+/* -----IMAGES-DU-BAS------ */
 .images-bas {
   flex-wrap: nowrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   overflow: scroll;
   /* border: solid 3px yellow; */
-  width: 580px;
+  width: 600px;
+  padding-left: 300px;
+  margin-left: 10px;
 }
-.last-image > img {
-  width: 280px;
-}
+
 .images-bas::-webkit-scrollbar {
   display: none;
 }
@@ -127,6 +130,7 @@ a {
   background-color: #333333;
   /* border: solid 2px red; */
   width: 140px;
+  margin-left: 4px;
 }
 /* ------MENU-FOOTER------ */
 

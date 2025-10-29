@@ -64,11 +64,8 @@
   /* border: solid 3px yellow; */
   width: 600px;
 }
+
 .last-image {
-  /* border: solid 3px red; */
-  width: 100%;
-}
-.last-image > img {
-  width: 598px;
-  height: 200px;
+  /* border: solid 6px green; */
+  width: 600px;
 }
