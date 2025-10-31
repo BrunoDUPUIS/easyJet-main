@@ -114,9 +114,12 @@ a {
   flex-wrap: nowrap;
   overflow: scroll;
   /* border: solid 3px yellow; */
-  width: 600px;
+  /* width: 600px; */
   padding-left: 300px;
   margin-left: 10px;
+}
+.last-image {
+  width: 280px;
 }
 
 /* .images-bas::-webkit-scrollbar {

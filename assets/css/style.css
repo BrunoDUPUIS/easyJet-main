@@ -123,19 +123,20 @@ header button {
   margin-bottom: 10px;
 }
 /* -----SECTION WORLDWIDE----- */
-.worldwide img {
-  height: 250px;
-  width: 100%;
-  object-fit: cover;
-  object-position: top;
-  /* border: solid 2px red; */
-}
+
 .worldwide {
   margin-bottom: 20px;
   box-shadow: 0 0 5px #bbb;
   /* border: solid 2px red; */
   display: flex;
   align-items: center;
+}
+.worldwide img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  /* border: solid 2px red; */
 }
 .worldwide div {
   display: flex;
@@ -196,39 +197,38 @@ header button {
   margin-left: 10px;
 }
 /* -----SECTION BRETAGNE----- */
-.bretagne img {
-  height: 305px;
-  width: 100%;
-  object-fit: cover;
-  /* border: solid 2px green; */
-}
+
 .bretagne {
   margin-bottom: 20px;
   box-shadow: 0 0 5px #bbb;
   /* border: solid 2px red; */
   display: flex;
+  align-items: center;
 }
-.bretagne > div div {
-  /* border: solid 4px red; */
-  /* width: 300px; */
+.bretagne img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  /* border: solid 2px green; */
+  flex: 2;
 }
 .bretagne div {
   display: flex;
   /* border: solid 2px orange; */
-  /* height: 290px; */
-  max-width: 100%;
   flex-direction: column;
-  margin-left: 5px;
-  margin-top: 10px;
+  padding-left: 5px;
+  flex: 1;
 }
+
 .bretagne button {
   background-color: #f70;
   color: white;
   padding: 8px 10px;
   border-radius: 2px;
   border: none;
+  margin-left: 125px;
+  margin-top: 20px;
   width: 165px;
-  margin-left: 120px;
   /* border: solid 2px blue; */
 }
 /* ------IMAGES DU BAS------ */

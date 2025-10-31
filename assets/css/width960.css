@@ -33,14 +33,14 @@
   /* border: solid 5px red; */
   flex-direction: column;
   width: 600px;
-  /* height: 600px; */
 }
-.bretagne > div > div {
+.bretagneText {
+  /* border: solid 2px red; */
+}
+.bretagneText > div {
   /* border: solid 2px orange; */
 }
-.bretagne > div {
-  /* border: solid 5px yellow; */
-}
+
 .bretagne > div h2 {
   margin-top: 20px;
   margin-bottom: 20px;
