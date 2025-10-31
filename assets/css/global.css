@@ -3,7 +3,7 @@
   font-family: "easyJet Rounded Book";
 }
 .container {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
   /* border: solid 4px orange; */
 }

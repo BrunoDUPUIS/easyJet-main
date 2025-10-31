@@ -1,71 +1,65 @@
 /* ------MAX-WIDTH-960PX------ */
 
-.container {
-  width: 820px;
-  /* border: solid 4px blue; */
-}
-
 /* ------WORDLWIDE------ */
-.worldwide img,
-.bretagne img {
+.worldwide img {
   border-radius: 15px 15px 0px 0px;
 }
-.worldwide,
-.bretagne {
+.worldwide {
   /* border: solid 2px red; */
   flex-direction: column;
   width: 600px;
 }
 .worldwide > div {
   /* border: solid 5px yellow; */
-  height: 130px;
-  width: 600px;
-  line-height: 5px;
+  width: 100%;
 }
 .worldwide > div h2 {
   margin-top: 20px;
   margin-bottom: 20px;
   /* border: solid 1px blue; */
 }
-.worldwide button {
-  margin-left: 400px;
+.worldwide div button {
   margin-top: 5px;
+  /* border: solid 2px green; */
+  margin-left: 400px;
 }
-.worldwide .first-image {
-  display: none;
-}
+
 /* ------BRETAGNE------ */
+
+.bretagne img {
+  border-radius: 15px 15px 0px 0px;
+}
 .bretagne {
-  /* border: solid 2px red; */
+  /* border: solid 5px red; */
   flex-direction: column;
+  width: 600px;
+  /* height: 600px; */
+}
+.bretagne > div > div {
+  /* border: solid 2px orange; */
 }
 .bretagne > div {
-  /* border: solid 1px yellow; */
-  height: 180px;
-  width: 600px;
-  line-height: 15px;
-}
-.bretagne > div p {
-  margin-bottom: 5px;
+  /* border: solid 5px yellow; */
 }
 .bretagne > div h2 {
   margin-top: 20px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   /* border: solid 1px blue; */
 }
-.bretagne button {
+.bretagne div button {
+  /* border: solid 2px green; */
   margin-left: 400px;
-  width: 170px;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
+
 /* ------IMAGES-DU-BAS------ */
 .images-bas {
   flex-wrap: wrap;
   /* border: solid 3px yellow; */
-  width: 600px;
 }
 
 .last-image {
-  /* border: solid 6px green; */
   width: 600px;
+  height: 210px;
+  /* border: solid 6px green; */
 }

@@ -1,8 +1,5 @@
 /* ------MAX-WIDTH-670PX------ */
-.container {
-  width: 100vw;
-  /* border: solid 4px blue; */
-}
+
 .beach {
   height: 700px;
   visibility: hidden;
@@ -92,29 +89,30 @@ a {
   height: 460px;
   width: 300px;
 }
-.text-bretagne > div {
-  /* border: solid 2px blue; */
-
-  margin-left: 80px;
-  width: 250px;
+.bretagne p {
+  /* border: solid 1px red; */
+  width: 280px;
+}
+.bretagne h2 {
+  /* border: solid 1px green; */
 }
 .bretagne div button {
   margin-left: 90px;
   margin-bottom: 70px;
   /* border: solid 2px black; */
-  width: 170px;
+  width: 180px;
 }
 .bretagne img {
   object-fit: cover;
   object-position: top;
   /* border: solid 4px green; */
-  margin-bottom: 10px;
+
   height: 150px;
 }
 /* -----IMAGES-DU-BAS------ */
 .images-bas {
   flex-wrap: nowrap;
-  /* justify-content: space-between; */
+
   overflow: scroll;
   /* border: solid 3px yellow; */
   width: 600px;
@@ -135,7 +133,6 @@ a {
 /* ------MENU-FOOTER------ */
 
 footer div {
-  /* display: flex; */
   flex-direction: column;
   align-items: center;
   /* border: solid 2px red; */

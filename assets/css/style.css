@@ -207,32 +207,34 @@ header button {
   box-shadow: 0 0 5px #bbb;
   /* border: solid 2px red; */
   display: flex;
-  align-items: center;
 }
-.bretagne > div {
-  width: 440px;
-  height: 290px;
+.bretagne > div div {
+  /* border: solid 4px red; */
+  /* width: 300px; */
+}
+.bretagne div {
   display: flex;
   /* border: solid 2px orange; */
+  /* height: 290px; */
+  max-width: 100%;
   flex-direction: column;
-  justify-content: center;
-  gap: 20px;
+  margin-left: 5px;
   margin-top: 10px;
-  padding-left: 10px;
 }
 .bretagne button {
   background-color: #f70;
   color: white;
-  padding: 8px 20px;
+  padding: 8px 10px;
   border-radius: 2px;
   border: none;
-  margin-left: 102px;
+  width: 165px;
+  margin-left: 120px;
   /* border: solid 2px blue; */
 }
 /* ------IMAGES DU BAS------ */
 .images-bas img {
   /* border: solid 2px red; */
-  width: 280px;
+  /* width: 280px; */
   border-radius: 10px;
 }
 .images-bas {
