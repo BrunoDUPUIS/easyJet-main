@@ -120,7 +120,7 @@ a {
 }
 .images-bas .first {
   /* border: solid 2px blue; */
-  margin-left: 145px;
+  margin-left: 170px;
 }
 .last-image {
   width: 280px;
@@ -134,11 +134,11 @@ a {
   background-color: #333333;
   /* border: solid 2px red; */
   width: 140px;
-  margin-left: 4px;
+  margin-left: 24px;
 }
 .container .div-bas {
   /* border: solid 2px blue; */
-  gap: 30px;
+  gap: 20px;
 }
 /* ------MENU-FOOTER------ */
 
