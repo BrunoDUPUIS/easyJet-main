@@ -118,6 +118,10 @@ a {
   padding-left: 300px;
   margin-left: 10px;
 }
+.images-bas .first {
+  /* border: solid 2px blue; */
+  margin-left: 145px;
+}
 .last-image {
   width: 280px;
 }
@@ -131,6 +135,10 @@ a {
   /* border: solid 2px red; */
   width: 140px;
   margin-left: 4px;
+}
+.container .div-bas {
+  /* border: solid 2px blue; */
+  gap: 30px;
 }
 /* ------MENU-FOOTER------ */
 
