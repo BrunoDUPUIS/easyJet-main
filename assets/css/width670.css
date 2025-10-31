@@ -112,7 +112,6 @@ a {
 /* -----IMAGES-DU-BAS------ */
 .images-bas {
   flex-wrap: nowrap;
-
   overflow: scroll;
   /* border: solid 3px yellow; */
   width: 600px;
@@ -120,9 +119,9 @@ a {
   margin-left: 10px;
 }
 
-.images-bas::-webkit-scrollbar {
+/* .images-bas::-webkit-scrollbar {
   display: none;
-}
+} */
 /* ------CAROUSSEL-BAS------ */
 .div-bas div {
   background-color: #333333;
